@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --firstcolor:#0a1a2e;
+    --secondcolor:#111d2e;
+    --thirdcolor:#00c2ff;
+    --fourthcolor:#e0f7ff;
+    --fifthcolor:#a0d4ff;
+    --radius:2rem;
+}
+body{
+    background: linear-gradient(#04000f, #1478dd);
+    color: var(--fourthcolor);
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: var(--secondcolor);
+    border-radius: var(--radius);
+    max-width: 1200px;
+    width: 80%;
+    height: 95vh;
+    padding: 25px;
+    margin: 30px 140px;
+}
+
+.luke{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    padding: 0 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--fourthcolor);
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: #a0d4ff;
+}
+
+.fix{
+    color: var(--thirdcolor);
+}
+
+.peak{
+    width: 600px;
+    margin: 20px 40px;
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.peak h1{
+    font-size: 2.7em;
+    margin-bottom: 10px;
+}
+
+.less{
+    font-size:1.8em;
+    color: var(--thirdcolor);
+    margin-bottom: 10px;
+}
+
+.view{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.high{
+    padding: 12px 15px;
+    width: 120px;
+    background-color: var(--thirdcolor);
+    color: rgb(34, 34, 34);
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.high:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.role{
+    padding: 12px 15px;
+    width: 120px;
+    background-color: var(--secondcolor);
+    color: var(--thirdcolor);
+    border: 1px solid var(--thirdcolor);
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.role:hover{
+    color: white;
+    transform: scale(1.2);
+
+}
+
+.cool{
+    display: block;
+    position: relative;
+    left: 875px;
+    bottom: 250px;
+    width:170px;
+    height:40vh;
+    border-radius: 80%;
+    border: none;
+}
